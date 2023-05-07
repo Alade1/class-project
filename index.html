@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <nav>
         <div class="nav-list-1">
             <ul>
@@ -34,10 +35,10 @@
         <p>The first area of specialization in telescopes has to do with the types of telescopes people use. The three
             designs of telescopes that most people use are the Refractor</p>
 
-        <form class="form">
+        <form action="GET" class="form">
             <input class="input" type="text" placeholder="Your name">
-            <input class="input" type="text" placeholder="Your email">
-            <button> Get Started</button>
+            <input class="input-2" type="text" placeholder="Your email">
+            <button type="submit" onclick="alertUser(event)"> Get Started</button>
 
         </form>
 
@@ -55,6 +56,9 @@
         </div>
 
     </footer>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 </body>
 

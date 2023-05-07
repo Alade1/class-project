@@ -41,6 +41,11 @@ body nav {
     padding: 10px 10px;
   }
 }
+@media (max-width: 900px) {
+  body nav {
+    padding: 20px 20px;
+  }
+}
 body nav ul {
   display: flex;
   align-items: center;
@@ -94,10 +99,16 @@ body section p {
     text-align: center;
   }
 }
+@media (max-width: 900px) {
+  body section p {
+    width: 80%;
+    text-align: center;
+  }
+}
 body section .form {
   margin-top: 40px;
 }
-body section .form .input {
+body section .form .input, body section .form .input-2 {
   width: 370px;
   height: 60px;
   border: 2px solid #FFFFFF;
@@ -107,9 +118,17 @@ body section .form .input {
   padding-left: 20px;
 }
 @media (max-width: 600px) {
-  body section .form .input {
+  body section .form .input, body section .form .input-2 {
     width: 100%;
     height: 40px;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 900px) {
+  body section .form .input, body section .form .input-2 {
+    width: 100%;
+    height: 70px;
     text-align: center;
     margin-top: 30px;
   }
@@ -128,6 +147,12 @@ body section .form button {
   border: none;
 }
 @media (max-width: 600px) {
+  body section .form button {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 900px) {
   body section .form button {
     width: 100%;
     margin-top: 30px;
